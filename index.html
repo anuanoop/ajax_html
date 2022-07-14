@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<meta charset="utf-8">
+	<title>Shopping Cart</title>
+	<style>
+		body {
+			text-align: center;
+		}
+
+		h1 {
+			color: #44A075;
+		}
+
+		table {
+			border: 2px solid #44A075;
+		}
+
+		caption {
+			margin: 10px 0;
+		}
+
+		tr {
+			height: 30px;
+		}
+
+		th,
+		td {
+			border: 1px solid #44A075;
+			width: 100px;
+		}
+
+		.info {
+			display: flex;
+			justify-content: center;
+		}
+
+		button {
+			margin: 20px 0;
+			height:30px;
+			/* height: 40px;
+			width: 100px; */
+			cursor: pointer;
+			background-color: Blue;
+			color:white
+		}
+
+		select
+		{
+			width: 200px; 
+			height:30px;
+			color:blue;
+		}
+	</style>
+</head>
+
+<body style="background-color:#ffc90e">
+	<img src="2.jpg" height="140px" width="440px" alt="" />
+	<br>
+
+	
+
+	<select id="DLState">
+		<!-- <option value="All">All</option> -->
+	</select>
+
+	  <button id="getdata">Get Data</button>
+
+	  <br>
+	  <br>
+	<div class="info">
+
+		<table id="stage">
+			<th>Name</th>
+			<th>quantity</th>
+			<th>Unit</th>
+			<th>Department</th>
+		</table>
+		
+	</div>
+	<!-- <button id="fetchBtn" type="button" name="button">Fetch</button> -->
+	<script src="jsfile.js" charset="utf-8"></script>
+</body>
+
+</html>
+
+	
